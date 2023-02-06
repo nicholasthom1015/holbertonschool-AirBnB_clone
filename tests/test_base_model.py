@@ -8,11 +8,6 @@ from datetime import datetime
 from time import sleep
 from models.base_model import BaseModel
 
-Unittest classes:
-    TestBaseModel_instantiation
-    TestBaseModel_save
-    TestBaseModel_to_dict
-
 
 class TestBaseModel_instantiation(unittest.TestCase):
     """Unittests for testing instantiation of the BaseModel class."""
